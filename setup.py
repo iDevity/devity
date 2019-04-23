@@ -3,6 +3,8 @@ import discord
 import random
 from discord.ext import commands
 from discord.ext.commands import Bot
+import requests
+import os
 import asyncio
 
 client = discord.Client()
@@ -54,4 +56,4 @@ async def mag8ball(ctx):
 
 
 
-bot.run('NTcwMDEzNjMzNjQ0NDYyMTAz.XL5BRg.9rjrbuBL6tmYW4fGH8wohkxIyIQ')
+bot.run(str(os.environ.get(''))
