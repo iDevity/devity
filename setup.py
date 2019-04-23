@@ -56,4 +56,4 @@ async def mag8ball(ctx):
 
 
 
-bot.run(str(os.environ.get(''))
+bot.run(str(os.environ.get('BOT_TOKEN'))
