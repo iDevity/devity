@@ -2,7 +2,6 @@ import discord
 import random
 from discord.ext import commands
 from discord.ext.commands import Bot
-import requests
 import os
 import asyncio
 
@@ -18,4 +17,4 @@ async def on_ready():
 async def online(ctx):
     await bot.say(" bot is **online** :green_heart: ")
 
-bot.run(str(os.environ.get(BOT_TOKEN))
+bot.run(os.getenv(BOT_TOKEN)
