@@ -53,6 +53,4 @@ async def mag8ball(ctx):
                                    "Outlook not so good :8ball:",
                                    "Very doubtful :8ball:"]))
 
-
-
 bot.run(str(os.environ.get(BOT_TOKEN))
